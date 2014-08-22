@@ -1,6 +1,6 @@
 class CommentsController < ApplicationController
   before_action :set_comment, only: [:show, :edit, :update, :destroy]
-
+  # playing with GIT added only to show a new commit. delete this line dls
   # GET /comments
   # GET /comments.json
   def index
